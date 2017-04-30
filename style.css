@@ -1,0 +1,43 @@
+
+      .majortable {
+        border: 3px solid black;
+        border-collapse: collapse;
+        margin: auto;
+      }
+      .majortd {
+        border: 2px solid black;
+        margin: 0px;
+        padding: 0px;
+      }
+      .minortable {
+        border: 1px solid black;
+        margin: 0px;
+        border-collapse: collapse;        
+      } 
+      .emptycell, .livecells, .frozencells {
+        background-color: transparent;
+        padding: 0px;
+        height:70px;
+        width: 70px;
+        margin: 0px;
+        border: 1px solid black;
+      }
+      .emptycell {
+        text-align: left;
+        word-break: break-all;
+        vertical-align: top;
+        color: black;
+        font-size:15px;
+      }
+      .livecells {
+        text-align: center;
+        vertical-align: middle;
+        color: blue;
+        font-size:50px;
+      }
+      .frozencells {
+        text-align: center;
+        vertical-align: middle;
+        color: black;
+        font-size:50px;
+      }
